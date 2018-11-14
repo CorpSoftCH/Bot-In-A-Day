@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicTransportBot", "PublicTransportBot\PublicTransportBot.csproj", "{02CE859C-710C-4539-934E-E6AFBEDB9EFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02CE859C-710C-4539-934E-E6AFBEDB9EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02CE859C-710C-4539-934E-E6AFBEDB9EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02CE859C-710C-4539-934E-E6AFBEDB9EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02CE859C-710C-4539-934E-E6AFBEDB9EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80C8225C-AE3D-4E0F-9E6C-A4D325C56FF8}
+	EndGlobalSection
+EndGlobal
