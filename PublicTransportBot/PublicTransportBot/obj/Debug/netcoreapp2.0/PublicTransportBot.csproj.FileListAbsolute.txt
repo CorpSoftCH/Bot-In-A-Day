@@ -7,3 +7,15 @@ C:\Users\Raphael.RBOOK\Documents\Visual Studio 2017\Projects\PublicTransportBot\
 C:\Users\Raphael.RBOOK\Documents\Visual Studio 2017\Projects\PublicTransportBot\PublicTransportBot\obj\Debug\netcoreapp2.0\PublicTransportBot.csproj.CoreCompileInputs.cache
 C:\Users\Raphael.RBOOK\Documents\Visual Studio 2017\Projects\PublicTransportBot\PublicTransportBot\obj\Debug\netcoreapp2.0\PublicTransportBot.AssemblyInfoInputs.cache
 C:\Users\Raphael.RBOOK\Documents\Visual Studio 2017\Projects\PublicTransportBot\PublicTransportBot\obj\Debug\netcoreapp2.0\PublicTransportBot.AssemblyInfo.cs
+C:\Github\Repos\Bot-In-A-Day\PublicTransportBot\PublicTransportBot\bin\Debug\netcoreapp2.0\BotConfiguration.bot
+C:\Github\Repos\Bot-In-A-Day\PublicTransportBot\PublicTransportBot\bin\Debug\netcoreapp2.0\PublicTransportBot.deps.json
+C:\Github\Repos\Bot-In-A-Day\PublicTransportBot\PublicTransportBot\bin\Debug\netcoreapp2.0\PublicTransportBot.runtimeconfig.json
+C:\Github\Repos\Bot-In-A-Day\PublicTransportBot\PublicTransportBot\bin\Debug\netcoreapp2.0\PublicTransportBot.runtimeconfig.dev.json
+C:\Github\Repos\Bot-In-A-Day\PublicTransportBot\PublicTransportBot\bin\Debug\netcoreapp2.0\PublicTransportBot.dll
+C:\Github\Repos\Bot-In-A-Day\PublicTransportBot\PublicTransportBot\bin\Debug\netcoreapp2.0\PublicTransportBot.pdb
+C:\Github\Repos\Bot-In-A-Day\PublicTransportBot\PublicTransportBot\obj\Debug\netcoreapp2.0\PublicTransportBot.csprojAssemblyReference.cache
+C:\Github\Repos\Bot-In-A-Day\PublicTransportBot\PublicTransportBot\obj\Debug\netcoreapp2.0\PublicTransportBot.csproj.CoreCompileInputs.cache
+C:\Github\Repos\Bot-In-A-Day\PublicTransportBot\PublicTransportBot\obj\Debug\netcoreapp2.0\PublicTransportBot.AssemblyInfoInputs.cache
+C:\Github\Repos\Bot-In-A-Day\PublicTransportBot\PublicTransportBot\obj\Debug\netcoreapp2.0\PublicTransportBot.AssemblyInfo.cs
+C:\Github\Repos\Bot-In-A-Day\PublicTransportBot\PublicTransportBot\obj\Debug\netcoreapp2.0\PublicTransportBot.dll
+C:\Github\Repos\Bot-In-A-Day\PublicTransportBot\PublicTransportBot\obj\Debug\netcoreapp2.0\PublicTransportBot.pdb

@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <CodeAnalysisRuleSet>EchoBotWithCounter.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>BotWithCounter.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
 
 
@@ -14,6 +14,7 @@
 
 
   <ItemGroup>
+    <PackageReference Include="AdaptiveCards" Version="1.1.0" />
     <PackageReference Include="Microsoft.AspNetCore" Version="2.1.3" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.7" />
     <PackageReference Include="AsyncUsageAnalyzers" Version="1.0.0-alpha003" PrivateAssets="all" />

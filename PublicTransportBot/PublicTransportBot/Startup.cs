@@ -114,7 +114,7 @@ namespace PublicTransportBot
 
             // Create and register state accesssors.
             // Acessors created here are passed into the IBot-derived class on every turn.
-            services.AddSingleton<EchoBotAccessors>(sp =>
+            services.AddSingleton<BotAccessors>(sp =>
             {
                 var options = sp.GetRequiredService<IOptions<BotFrameworkOptions>>().Value;
                 if (options == null)
@@ -130,9 +130,9 @@ namespace PublicTransportBot
 
                 // Create the custom state accessor.
                 // State accessors enable other components to read and write individual properties of state.
-                var accessors = new EchoBotAccessors(conversationState)
+                var accessors = new BotAccessors(conversationState)
                 {
-                    CounterState = conversationState.CreateProperty<CounterState>(EchoBotAccessors.CounterStateName),
+                    CounterState = conversationState.CreateProperty<CounterState>(BotAccessors.CounterStateName),
                 };
 
                 return accessors;

@@ -12,14 +12,14 @@ namespace PublicTransportBot
     ///  - See the Startup.cs file for more details on creating the Singleton that gets
     ///    injected into the constructor.
     /// </summary>
-    public class EchoBotAccessors
+    public class BotAccessors
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="EchoBotAccessors"/> class.
+        /// Initializes a new instance of the <see cref="BotAccessors"/> class.
         /// Contains the <see cref="ConversationState"/> and associated <see cref="IStatePropertyAccessor{T}"/>.
         /// </summary>
         /// <param name="conversationState">The state object that stores the counter.</param>
-        public EchoBotAccessors(ConversationState conversationState)
+        public BotAccessors(ConversationState conversationState)
         {
             ConversationState = conversationState ?? throw new ArgumentNullException(nameof(conversationState));
         }
@@ -29,7 +29,7 @@ namespace PublicTransportBot
         /// </summary>
         /// <remarks>Accessors require a unique name.</remarks>
         /// <value>The accessor name for the counter accessor.</value>
-        public static string CounterStateName { get; } = $"{nameof(EchoBotAccessors)}.CounterState";
+        public static string CounterStateName { get; } = $"{nameof(BotAccessors)}.CounterState";
 
         /// <summary>
         /// Gets or sets the <see cref="IStatePropertyAccessor{T}"/> for CounterState.
