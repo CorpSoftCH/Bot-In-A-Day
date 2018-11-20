@@ -34,7 +34,7 @@ namespace PublicTransportBot
 
                 var userInput = activity.Text;
                 string senderName = activity.From.Name;
-                string userReplyString = "";
+                string userReplyString = "Hi User!";
 
 
                 // return our reply to the user

@@ -45,4 +45,9 @@ namespace PublicTransportBot
         /// <value>The <see cref="ConversationState"/> object.</value>
         public ConversationState ConversationState { get; }
     }
+
+    public class CounterState
+    {
+
+    }
 }
