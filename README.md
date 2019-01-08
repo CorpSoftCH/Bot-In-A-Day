@@ -25,7 +25,7 @@ This Repository contains all the materials needed in the Bot in a Day training i
 ```C#
 string RequestURI = "###ENTER YOUR LUIS APP CONNECTION STRING HERE###" + Query;
 ```
-11. Kopieren Inhalt Bot-In-A-Day\CodeSnippets\LUISCall.cs auf die Zeilen NACH folgendem Code (ca. Zeilen 38/39/40):
+11. Kopieren Inhalt Bot-In-A-Day\CodeSnippets\LUISCall.cs auf die Zeilen (im File: PublicTransportBot.cs) NACH folgendem Code (ca. Zeilen 38/39/40):
 ```C#
 var userInput = activity.Text;
 string senderName = activity.From.Name;
@@ -45,7 +45,7 @@ string userReplyString = "";
 5. LUIS App publishen
 6. In Visual Studio zwei neue Klassen erstellen: TransportAPI.cs und TransportResponse.cs
 7. Kopieren Inhalt Bot-In-A-Day\CodeSnippets\ TransportAPI.cs und TransportResponse.cs in die jeweiligen Files
-8. Kopieren Inhalt Bot-In-A-Day\CodeSnippets\GetTransportConnection.cs auf die Zeilen NACH folgendem Code (ca. Zeilen 44-50):
+8. Kopieren Inhalt Bot-In-A-Day\CodeSnippets\GetTransportConnection.cs auf die Zeilen (Im File: PublicTransportBot.cs) NACH folgendem Code (ca. Zeilen 44-50):
 ```C#
 switch (luisResponse.topScoringIntent.intent)
                 {
